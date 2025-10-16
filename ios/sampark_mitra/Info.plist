@@ -50,5 +50,20 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	  <!-- Camera Permissions -->
+	  <key>NSCameraUsageDescription</key>
+	  <string>This app needs access to camera to capture photos and videos</string>
+	  
+	  <!-- Microphone Permissions -->
+	  <key>NSMicrophoneUsageDescription</key>
+	  <string>This app needs access to microphone for audio recording</string>
+	  
+	  <!-- Location Permissions -->
+	  <key>NSLocationWhenInUseUsageDescription</key>
+	  <string>This app needs access to location when in use</string>
+	  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	  <string>This app needs access to location always and when in use</string>
+	  <key>NSLocationAlwaysUsageDescription</key>
+	  <string>This app needs access to location always</string>
 </dict>
 </plist>
